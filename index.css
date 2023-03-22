@@ -1,0 +1,119 @@
+.rainbow-wrapper {
+    position: relative;
+    width: 90vw;
+    height: 40vw;
+    overflow: hidden;
+    margin: auto;
+}
+
+
+.red {
+    background-color: red;
+    width: 90vw;
+    height: 45vw;
+    position: absolute;
+}
+
+.orange {
+    background-color: orange;
+    width: 85vw;
+    height: 42.5vw;
+    position: absolute;
+    left: 2.5vw;
+    top: 2.5vw;
+}
+
+.yellow {
+    background-color: yellow;
+    width: 80vw;
+    height: 40vw;
+    position: absolute;
+    left: 5vw;
+    top: 5vw;
+}
+
+
+
+.green {
+    background-color: green;
+    width: 75vw;
+    height: 37.5vw;
+    position: absolute;
+    left: 7.5vw;
+    top: 7.5vw;
+
+}
+
+.blue {
+    background-color: blue;
+    width: 70vw;
+    height: 35vw;
+    position: absolute;
+    left: 10vw;
+    top: 10vw;
+
+}
+
+.purple {
+    background-color: purple;
+    width: 65vw;
+    height: 32.5vw;
+    position: absolute;
+    left: 12.5vw;
+    top: 12.5vw;
+
+}
+
+.pink {
+    background-color: pink;
+    width: 60vw;
+    height: 30vw;
+    position: absolute;
+    left: 15.0vw;
+    top: 15.0vw;
+
+}
+
+.lightblue {
+    background-color: lightblue;
+    width: 55vw;
+    height: 27.5vw;
+    position: absolute;
+    left: 17.5vw;
+    top: 17.5vw;
+
+}
+
+.brown {
+    background-color: brown;
+    width: 50vw;
+    height: 25vw;
+    position: absolute;
+    left: 20.0vw;
+    top: 20.0vw;
+
+}
+
+.black {
+    background-color: black;
+    width: 45vw;
+    height: 22.5vw;
+    position: absolute;
+    left: 22.5vw;
+    top: 22.5vw;
+
+}
+
+.white {
+    background-color: white;
+    width: 40vw;
+    height: 20vw;
+    position: absolute;
+    left: 25vw;
+    top: 25vw;
+
+}
+
+.rainbow-wrapper>div {
+    border-radius: 90vw 90vw 0 0;
+}
