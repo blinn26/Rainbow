@@ -1,8 +1,13 @@
 .container {
     position: absolute;
+
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 90%;
+    /*     max-width: 1200px; */
+    margin: 0 auto;
+
 }
 
 
@@ -31,18 +36,17 @@
     ;
 }
 
-.title {
-    text-align: center;
-    font-size: 3.5vw;
-    font-weight: bold;
-    color: black;
-}
+
 
 .my-heading {
     text-align: center;
-    font-size: 2em;
-    color: blue;
+    font-size: 45px;
+    color: darkgoldenrod;
+    font-family: cursive;
+    margin-top: 50px;
+
 }
+
 
 .red {
     background-color: red;
