@@ -21,14 +21,27 @@
 
 .rainbow-image {
     position: absolute;
-    width: 383px;
+    width: 20%;
     height: auto;
     mix-blend-mode: screen;
     left: 50%;
     transform: translateX(-50%);
-    bottom: -20vw;
     z-index: 1;
-    border-radius: 90vw 90vw 0 0;
+    border-radius: 90vw 90vw 36vw 36vw;
+    ;
+}
+
+.title {
+    text-align: center;
+    font-size: 3.5vw;
+    font-weight: bold;
+    color: black;
+}
+
+.my-heading {
+    text-align: center;
+    font-size: 2em;
+    color: blue;
 }
 
 .red {
