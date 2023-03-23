@@ -1,3 +1,12 @@
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
 .rainbow-wrapper {
     position: relative;
     width: 90vw;
@@ -6,12 +15,28 @@
     margin: auto;
 }
 
+.rainbow-wrapper>div {
+    border-radius: 90vw 90vw 0 0;
+}
+
+.rainbow-image {
+    position: absolute;
+    width: 383px;
+    height: auto;
+    mix-blend-mode: screen;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -20vw;
+    z-index: 1;
+    border-radius: 90vw 90vw 0 0;
+}
 
 .red {
     background-color: red;
     width: 90vw;
     height: 45vw;
     position: absolute;
+    z-index: 0;
 }
 
 .orange {
@@ -21,6 +46,7 @@
     position: absolute;
     left: 2.5vw;
     top: 2.5vw;
+    z-index: 0;
 }
 
 .yellow {
@@ -30,9 +56,8 @@
     position: absolute;
     left: 5vw;
     top: 5vw;
+    z-index: 0;
 }
-
-
 
 .green {
     background-color: green;
@@ -41,7 +66,7 @@
     position: absolute;
     left: 7.5vw;
     top: 7.5vw;
-
+    z-index: 0;
 }
 
 .blue {
@@ -51,7 +76,7 @@
     position: absolute;
     left: 10vw;
     top: 10vw;
-
+    z-index: 0;
 }
 
 .purple {
@@ -61,7 +86,7 @@
     position: absolute;
     left: 12.5vw;
     top: 12.5vw;
-
+    z-index: 0;
 }
 
 .pink {
@@ -71,7 +96,7 @@
     position: absolute;
     left: 15.0vw;
     top: 15.0vw;
-
+    z-index: 0;
 }
 
 .lightblue {
@@ -81,7 +106,17 @@
     position: absolute;
     left: 17.5vw;
     top: 17.5vw;
+    z-index: 0;
+}
 
+.navy {
+    background-color: cyan;
+    width: 65vw;
+    height: 27.5vw;
+    position: absolute;
+    left: 22.5vw;
+    top: 22.5vw;
+    z-index: 0;
 }
 
 .brown {
@@ -91,8 +126,10 @@
     position: absolute;
     left: 20.0vw;
     top: 20.0vw;
-
+    z-index: 0;
 }
+
+
 
 .black {
     background-color: black;
@@ -101,8 +138,10 @@
     position: absolute;
     left: 22.5vw;
     top: 22.5vw;
-
+    z-index: 0;
 }
+
+
 
 .white {
     background-color: white;
@@ -111,9 +150,5 @@
     position: absolute;
     left: 25vw;
     top: 25vw;
-
-}
-
-.rainbow-wrapper>div {
-    border-radius: 90vw 90vw 0 0;
+    z-index: 0;
 }
